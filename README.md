@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Adams Hallie Ventures — Website
+
+The official landing page for **Adams Hallie Ventures LLC**, a family-led holding company dedicated to acquiring and scaling community-centric experiences. Based in Spicewood, Texas.
+
+Live at [adamshallieventures.com](https://adamshallieventures.com)
+
+## Tech Stack
+
+- **Framework** — [Next.js 16](https://nextjs.org) (App Router, Turbopack)
+- **Styling** — [Tailwind CSS v4](https://tailwindcss.com) (CSS-based config)
+- **Typography** — [Geist](https://vercel.com/font) variable sans-serif via `next/font`
+- **Language** — TypeScript
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── layout.tsx            # Root layout — fonts, metadata, Open Graph
+│   └── page.tsx              # Single-page landing (composes all sections)
+├── components/
+│   ├── Header.tsx            # Fixed nav — Holding | Portfolio | About | Contact
+│   ├── Hero.tsx              # "Investing in the future of play."
+│   ├── PortfolioCard.tsx     # Pikopye's Town feature + stats bento grid
+│   ├── About.tsx             # Mission + values cards
+│   └── Footer.tsx            # Links, legal (LLC / DBA)
+└── styles/
+    └── globals.css           # Tailwind directives + warm-paper palette
+```
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Start the dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Design
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Token | Value | Purpose |
+|-------|-------|---------|
+| Background | `#F9F7F2` | Warm unbleached paper |
+| Foreground | `#1A1A1A` | Deep charcoal text |
+| Accent | `#3730A3` | Indigo — "Deep Play" nod |
+| Card | `#FFFFFF` | Bento card surfaces |
+| Border | `#E8E5DE` | Subtle warm borders |
 
-## Learn More
+The layout follows a **Bento grid** pattern — easy to expand as new ventures are added. Each portfolio venture gets a feature card plus supporting stat tiles.
 
-To learn more about Next.js, take a look at the following resources:
+## Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start dev server (Turbopack) |
+| `npm run build` | Production build |
+| `npm run start` | Serve production build |
+| `npm run lint` | Run ESLint |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+Deploy with [Vercel](https://vercel.com) for zero-config Next.js hosting, or any platform that supports Node.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+npm run start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+Private — Adams Hallie Ventures LLC. All rights reserved.
