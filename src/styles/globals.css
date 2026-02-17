@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F9F7F2;
+  --foreground: #1A1A1A;
+  --accent-indigo: #3730A3;
+  --accent-indigo-light: #4F46E5;
+  --accent-red: #991B1B;
+  --muted: #8A8780;
+  --card: #FFFFFF;
+  --card-hover: #F3F1EC;
+  --border: #E8E5DE;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent-indigo);
+  --color-accent-light: var(--accent-indigo-light);
+  --color-accent-red: var(--accent-red);
+  --color-muted: var(--muted);
+  --color-card: var(--card);
+  --color-card-hover: var(--card-hover);
+  --color-border: var(--border);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}
+
+::selection {
+  background: var(--accent-indigo);
+  color: #FFFFFF;
+}
