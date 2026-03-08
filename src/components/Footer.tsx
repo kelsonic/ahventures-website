@@ -19,7 +19,7 @@ export default function Footer() {
             </span>
             <p className="mt-3 text-sm leading-relaxed text-muted">
               A family-led holding company dedicated to acquiring and scaling
-              community-centric experiences. Based in Spicewood, Texas.
+              community-centric experiences. Based in Lakeway, Texas.
             </p>
           </div>
 
@@ -49,7 +49,7 @@ export default function Footer() {
               <ul className="mt-3 space-y-2" role="list">
                 <li>
                   <a
-                    href="mailto:kelson@adamshallieventures.com"
+                    href="mailto:team@adamshallieventures.com"
                     className="text-sm text-foreground/70 transition-colors hover:text-foreground"
                   >
                     Email us

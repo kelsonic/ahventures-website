@@ -1,6 +1,6 @@
 # Adams Hallie Ventures — Website
 
-The official landing page for **Adams Hallie Ventures LLC**, a family-led holding company dedicated to acquiring and scaling community-centric experiences. Based in Spicewood, Texas.
+The official landing page for **Adams Hallie Ventures LLC**, a family-led holding company dedicated to acquiring and scaling community-centric experiences. Based in Lakeway, Texas.
 
 Live at [adamshallieventures.com](https://adamshallieventures.com)
 

@@ -29,7 +29,7 @@ export default function Hero() {
         {/* Sub-headline */}
         <p className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-muted sm:text-xl">
           Adams Hallie Ventures LLC is a family-led holding company dedicated to
-          acquiring and scaling community-centric experiences. Based in Spicewood, Texas.
+          acquiring and scaling community-centric experiences. Based in Lakeway, Texas.
         </p>
 
         {/* CTA */}
@@ -44,7 +44,7 @@ export default function Hero() {
             </svg>
           </a>
           <a
-            href="mailto:kelson@adamshallieventures.com"
+            href="mailto:team@adamshallieventures.com"
             className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-semibold text-foreground transition-all hover:bg-card hover:border-foreground/20"
           >
             Get in touch

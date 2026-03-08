@@ -30,7 +30,7 @@ export default function ComingSoon() {
 
         {/* Location */}
         <p className="mt-4 text-sm text-muted/60">
-          Spicewood, Texas
+          Lakeway, Texas
         </p>
 
         {/* Divider */}
@@ -38,7 +38,7 @@ export default function ComingSoon() {
 
         {/* Contact CTA */}
         <a
-          href="mailto:kelson@adamshallieventures.com"
+          href="mailto:team@adamshallieventures.com"
           className="inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-sm font-semibold text-background transition-all hover:bg-accent hover:scale-[1.02] active:scale-[0.98]"
         >
           Get in touch

@@ -15,13 +15,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Adams Hallie Ventures | Investing in the Future of Play",
   description:
-    "Adams Hallie Ventures LLC is a family-led holding company dedicated to acquiring and scaling community-centric experiences. Based in Spicewood, Texas.",
+    "Adams Hallie Ventures LLC is a family-led holding company dedicated to acquiring and scaling community-centric experiences. Based in Lakeway, Texas.",
   keywords: [
     "Adams Hallie Ventures",
     "holding company",
     "Pikopye's Town",
     "family entertainment",
-    "Spicewood Texas",
+    "Lakeway Texas",
     "indoor play",
     "community experiences",
   ],
